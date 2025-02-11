@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 40px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Page Container */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 22px;
+    margin: 40px 0 10px;
+    color: #444;
+}
+
+/* Blog Grid Layout */
+.blog-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Blog Card Style (Used for all sections) */
+.blog-card {
+    width: 30%;
+    height: 180px;
+    background-color: #a3b8ff; /* Default color for Blogs */
+    border-radius: 12px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.blog-card:hover {
+    transform: scale(1.05);
+}
+
+/* Exploring Ideas - Light Theme */
+.light-card {
+    background-color: #dcdcdc;
+}
+
+/* Projects - Dark Theme */
+.dark-card {
+    background-color: #808080; /* Dark Gray */
+}
